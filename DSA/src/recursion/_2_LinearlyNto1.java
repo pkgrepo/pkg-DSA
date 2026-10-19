@@ -1,6 +1,6 @@
 package recursion;
 
-public class Linearly1toN {
+public class _2_LinearlyNto1 {
 
 
     public static void main(String[] args){
@@ -11,21 +11,21 @@ public class Linearly1toN {
     private static void print1toN(int number) {
         // Linear Way
         System.out.println("Linear Way");
-        for(int i = 1; i <= number; i++){
+        for(int i = number; i >= 1; i--){
             System.out.println(i);
         }
 
         // Recursive Way
         System.out.println("Recursive Way");
-        int index = 1;
+        int index = 10;
         printRecursive(index, number);
     }
 
     private static void printRecursive(int index, int number) {
-        if(index > number){
+        if(index < 1){
             return;
         }
         System.out.println(index);
-        printRecursive(index +1, number);
+        printRecursive(index -1, number);
     }
 }

@@ -1,6 +1,6 @@
 package recursion;
 
-public class NtimesNames {
+public class _0_NtimesNames {
 
     private static void printRecurNames(int index, int totalNumber){
         if(index > totalNumber){

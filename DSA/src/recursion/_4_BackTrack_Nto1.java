@@ -1,6 +1,6 @@
 package recursion;
 
-public class BackTrack_Nto1 {
+public class _4_BackTrack_Nto1 {
     public static void main(String[] args){
         System.out.println("Backtrack: Print N to 1." +
                 "Generally we should start pointer from N and then use MINUS(-) operator. " +

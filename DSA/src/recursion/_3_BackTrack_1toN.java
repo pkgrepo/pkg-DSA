@@ -1,6 +1,6 @@
 package recursion;
 
-public class BackTrack_1toN {
+public class _3_BackTrack_1toN {
     public static void main(String[] args){
         System.out.println("Backtrack: Print 1 to N." +
                 "Generally we should start pointer from 1 and then use PLUS operator. " +
