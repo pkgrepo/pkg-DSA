@@ -18,9 +18,10 @@ public class NtimesName {
     }
 
     public void printRecurNames(int index, int totalNumber){
-        if(index <= totalNumber){
-            System.out.println("Prashant");
+        if(index > totalNumber){
+            return;
         }
+        System.out.println("Prashant");
         printRecurNames(index + 1, totalNumber);
     }
 }
