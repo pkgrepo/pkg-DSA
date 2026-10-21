@@ -11,6 +11,7 @@ public class _12_subsq_print_first_match {
         int target = 3;
 
         //Print the first subsequence which sum = target
+        System.out.println("Print only first matching target subsequence.");
         List<Integer> new_list = new ArrayList<>();
         int index = 0;
         int sum = 0;
@@ -19,7 +20,7 @@ public class _12_subsq_print_first_match {
 
     private static boolean subsFirstSumRecursion(int index, List<Integer> list, List<Integer> newList, int sum, int target) {
         if(index == list.size()){
-            sum = newList.stream().mapToInt(Integer::intValue).sum();
+            // sum = newList.stream().mapToInt(Integer::intValue).sum();
             if(sum == target){
                 System.out.println(newList);
                 return true;
